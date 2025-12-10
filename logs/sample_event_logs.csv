@@ -1,0 +1,9 @@
+﻿EventID,Username,CommandLine,SourceIP
+1001,Admin1,powershell.exe -nop 192.168.1.5,192.168.100.100
+1002,UserA,notepad.exe,192.168.1.10
+1003,TestUser,wmic process list,10.10.10.200
+1004,UserB,cmd.exe /c dir,192.168.1.11
+1005,Unknown,schtasks /create /tn "malware",192.168.1.50
+1006,Admin1,explorer.exe,192.168.1.20
+1007,UserC,powershell.exe Get-Process,192.168.1.30
+1008,UserD,notepad.exe,192.168.1.40
